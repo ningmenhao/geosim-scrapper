@@ -10,7 +10,7 @@ subreddit = reddit.subreddit("geosim")
 # use creds to create a client to interact with the Google Drive API
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
-json_creds = os.getenv("js_creds")
+json_creds = os.getenv("json_creds")
 
 creds_dict = json.loads(json_creds)
 creds_dict["private_key"] = creds_dict["private_key"].replace("\\\\n", "\n")
