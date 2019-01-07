@@ -1,6 +1,7 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import praw
+import json
 
 # use creds to create a client to interact with the praw Reddit API
 reddit = praw.Reddit('bot1')
@@ -9,7 +10,11 @@ subreddit = reddit.subreddit("geosim")
 # use creds to create a client to interact with the Google Drive API
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scope)
+json_creds = os.getenv("js_creds")
+
+creds_dict = json.loads(json_creds)
+creds_dict["private_key"] = creds_dict["private_key"].replace("\\\\n", "\n")
+creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scopes)
 client = gspread.authorize(creds)
 
 # Find a workbook by name and open the first sheet
