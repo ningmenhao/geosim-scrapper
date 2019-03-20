@@ -29,8 +29,8 @@ last_update_utc = sheet.cell(2,1).value
 line_count = 0
 for submission in subreddit.new(limit=20):
     if submission.created_utc > float(last_update_utc):
-        row = [str(submission.created_utc),str(submission.title.encode("utf-8")),str(submission.author.name.encode("utf-8"))
-           ,str(submission.selftext.encode("utf-8"))]
+        row = [str(submission.created_utc),str(submission.title),str(submission.author.name)
+           ,str(submission.selftext)]
         print(row[0:2])
         index = 2 + line_count
         line_count += 1
