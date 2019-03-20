@@ -19,7 +19,7 @@ client = gspread.authorize(creds)
 
 # Find a workbook by name and open the first sheet
 # Make sure you use the right name here.
-sheet = client.open("Ning Screwing Around LOL").sheet1
+sheet = client.open("Geosim Season 9 Post Archive").sheet1
 
 # Figure out the last write to the document
 last_update_utc = sheet.cell(2,1).value
