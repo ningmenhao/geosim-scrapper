@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "geosim-s9-tracker",
+  "private_key_id": "a1b29e57f78073ebdcdac8aa3ca055332405349f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCo+GluTZ+eYGJV\njZXQmKIEiPKrNgvSzAYWhsnZmLaabJBHhGBP6i+GGFDAxf+JluBe/QaVvIq8w3+X\ngXMoEF49GmrCTqmUytJZHywn1onC28Xl1SHrN4dUgr/J/YJK85yWJ2xXWI262KW2\nK5+hlMRrbMYIamuzhLANZ2oZb5EGVwmO6ijQumOFQOshH4+1UIY4LXJQ17Jxmzrk\nGKqAQg19iLQvZp1ory2wbW4QA56oCQLDZ5++iXdOdgIL0nqIfEEXe1DmoGCKLJ3a\nT00KDamWFeTT7n6dbVX3pZxLmu2x7GUiPOag4cnJDQoCL0XXQJ4aaKNqXIayfCBk\nQQS2ePvLAgMBAAECggEAE8c0AWseRm8OGOk1l+ZDJ1hns0kPEZG7xVzp+UmUrOG3\n8lnD3kbRYOxYCMsu/J9yTEa+GRPUgiuOCUwSkHt4qcVS/sMvZWZnlcf+Jqby7CHx\nJFRndSgZnqJJVG7olou1EKcKWZ+uGKitnkkKlTgb1Qk1QEdDVmQvKU/UDah5/ML4\nMDplxw5tkB0gqFxqWu4uLLRy69turIZ6wSD4SZ5bLtIP4HViPWIoHDeMK85yaH4t\n0PeF/cEo7lrQqY+9HeWY1OvU4yO62G7VmADvkG7cDxUpXVk0tcwt8bIkV3fXMwuC\nDZRal5cmFavvbskGsuFtc/KHZiFCLIQbdoOZyXccPQKBgQDgmPPAzJlj3trsrsgO\nWldejwq2txj8I1cHWjwblbjCqm+kYR2Fu5B6vTyis+EdLJlvg/Uo12P1rrLdXFi4\n7YGeW4F9CGWm6oUPaRZ8UHhL7wjvTSmbt5Hx4h4LrH5ExGcLWx+o78dosRDpVqOp\ntN3t2XKmppQsU5MM8/vO2LS4DwKBgQDAmGQToyTSPxK+o+sq/St0JwmYGXrnw5c3\nGw3tz62rI/5vhr0uNb3awWlTAQ3Knki8o/2Gmy0i/4I2ZhmeFnmeWdGTmzLJ51NN\nlY03OCuk/fiU9DQmtvN/4DLcVpmqLATql2gqd0uRo4tzOXANC4nRG1iT/pnAGc98\ncEjwINjkhQKBgCBBVyBlQdI5+y7qmwiUqN+Ho35CJXBwktsXdnJvui0a1RXCbL78\nBO/bpY2oT7gk45REWz0WUeDCyiVIUeWdFnRrp9kRD6g9HgbsjLIlzGD7X0kex875\nOhiG5NHAYBH4MuRKne1hIj5Cz67zJmYE96plBDYyzizfg8rkb1FxheK5AoGAE28N\nIiIjNAfjR1NZBoR3XwgVYsCncz18Q7Y6KJX9Kzi9ktlgu4n2t10u2I5RqvFf25Ec\novmDi3WG2SBiU15nNUBQ8nkFnfP2puyBTGIhnUt3Suh9Xq61UWD5INyoMtCwSk+u\n1iIlgPOkvaK9GMPiSzRcMsrNDuJL2n2mDnzyBdUCgYEAvhYizQ35zin0CcWCUxU5\nYdxaJw0EAm/wmZi/pRYuI5FCG8y+5UcHXXquTL5y6EobzA/f48L8jdI0BvJ5cnih\nVUEoB7bvL7qmAKMm1k9YyRgxkThnlKohntIKQi4NHlroT98dePfJcXK5Z1iL0qbz\nYj6DvcvMFsRZ6iI4qN7qZ40=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nings-heroku-account@geosim-s9-tracker.iam.gserviceaccount.com",
+  "client_id": "115103585200385735839",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nings-heroku-account%40geosim-s9-tracker.iam.gserviceaccount.com"
+}
